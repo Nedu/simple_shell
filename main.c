@@ -14,7 +14,7 @@ int main(void)
 	char *delim = "\n";
 	char *token = NULL;
 	int argc = 0, i = 0;
-	char ** argv = NULL;
+	char **argv = NULL;
 
 	printf("$ ");
 	if (getline(&input, &n, stdin) == -1)
