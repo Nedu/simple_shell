@@ -33,7 +33,6 @@ int main(void)
 	}
 
 	argv = malloc(sizeof(char *) * argc);
-
 	token = strtok(input_cpy, delim);
 
 	while (token)
@@ -45,13 +44,8 @@ int main(void)
 	argv[i] = NULL;
 	i = 0;
 
-	while(argv[i])
-	{
-
-	}
-
 	free(input);
 	free(input_cpy);
 	free(argv);
-	return 0;
+	return (0);
 }
